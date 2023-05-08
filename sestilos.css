@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+
+header{
+    width: 100%;/*ancho de la pantalla*/
+    height: 50px;/*alto de la pantalla*/
+    /*background-color: aquamarine;/*color de la cabeza de pagina*/
+}
+
+main{
+    width: 100%;
+    height: 550px;
+   background-color: red;/*color de fondo de la pantalla*/
+    display: flex;/*divide la pantalla*/
+    justify-content: space-between;/*la pantalla de parte por la mitad*/
+}
+
+section{
+    width: 40%;
+    height: 100%;
+    /*background-color: blue;*/
+}
+
+.section-uno{
+    width: 70%;/*tamaño del bloque izquierdo*/
+   
+
+}
+
+.section-dos{
+    width: 20%;/*tamaño del bloque derecho*/
+    height: 90%;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    /*no permite que el contenido se salga de su contenedor*/
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;/*se centra el cuadro blanco en la pantalla*/
+    margin-top: 50px;/*separo el cuadro blanco de la parte superior*/
+    resize: none;/*bloquea que podamos a pequeñar el cuadro blanco con el mouse*/
+    font-size: 20px;
+}
+
+.cajon-botones{
+    text-align: center;/*centro los dos botones*/
+    margin-top: 10px;
+    
+}
+
+.boton-desencriptador, .boton-encriptar{
+    width: 35%;
+    height: 5%;
+   
+}
+
+/*el bonton cambia de color al pasar el mouse por encima*/
+.boton-encriptar:hover{
+    background-color: #c78c19;
+    font-size: 15px;
+}
+
+/*el bonton cambia de color al pasar el mouse por encima*/
+.boton-desencriptador:hover{
+    background-color: #c78c19;
+    font-size: 15px;
+    
+}
+
+.section-dos img{
+    width: 80%;
+}
+
+.contenedor-muñeco{
+    width: 100%;
+    height: 60%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding: 20px;
+    /*no permite que el contenido se salga de su contenedor*/
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding: 20px;
+    /*no permite que el contenido se salga de su contenedor*/
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 15px;/*el resultado se separa de los bordes*/
+    box-sizing: border-box;/*se mueve sin afectar a los otros contenedores*/
+}
+
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+    margin-top: 360px;
+}
+
+
+
+/*boton de copiar*/
+.botton-copiar{
+    width: 35%;
+    height: 5%;
+    
+    display: block;
+    margin: auto;
+}
+
+.botton-copiar:hover{
+    background-color: #c78c19;
+    font-size: 15px;
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    /*background-color: #c78c19;*/
+    text-align: center;
+}
+
+/*todas las clases que tienen ocultar se van a esconder*/
+.ocultar{
+    display: none;
+}

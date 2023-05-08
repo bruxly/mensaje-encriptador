@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/sestilos.css">
+        <title>Dialogo Encriptado</title>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+       
+    </head>
+
+    <body>
+        <header>
+            <img src="/iconos/letra_A.png" alt ="Letra">
+
+        </header>
+        <main>
+            <!--las secciones nos ayuda a tener 2 bloques uno a la derecha y otro a la izquierda-->
+            <section class="section-uno"> 
+                <textarea class="area" placeholder="Ingrese un texto"></textarea><!--nos da un espacio parte izquierda superior-->
+                
+                <div class="cajon-botones">
+                    <input type="button" class="boton-encriptar" value="Encriptar">
+                    <input type="button" class="boton-desencriptador" value="Desencriptar">
+                
+                </div>
+            </section>
+            
+
+            <section class="section-dos">
+                <div class="contenedor-muñeco">
+                    <img src="/imagenes/Muñeco.png" alt="muñeco">
+                </div>
+
+                <div class="contenedor-h3">
+                    <h3>Ningun mensaje fue encontrado</h3>
+                </div>
+
+                <div class="contenedor-parrafo">
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+
+                <div>
+                    <div class="contenedor-resultado">
+                        <h3>mensaje encriptado:</h3>
+                        <p class="texto-resultado"></p>
+                    </div>
+
+                    <div class="contenedor-copiar">
+                        <input type="button" class="botton-copiar" value="copiar">
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        
+
+        <footer>
+            <p>Todos los derechos reservados</p>
+        </footer>
+       
+
+        <script src="archivo.js"></script>
+    </body>
+
+   
+</html>
